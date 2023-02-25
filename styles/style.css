@@ -33,31 +33,7 @@ span {
 	font-size: 2rem;
 }
 	/*Estilos para tablets */
- @media only screen and (min-width: 768px) and (max-width: 1024px) {
-	body {
-	  font-size: 16px;
-	  line-height: 1.6;
-	}
-	.navBar i{
-		color:aliceblue;
-		font-size:11px;
-		opacity: 1.5;
-	}
-  }
-  
-    /*Estilos para teléfonos móviles */
-  @media only screen and (max-width: 767px) { 
-	body {
-	  font-size: 0.9rem;
-	  line-height: 1.4;
-	   
-	}
-	.navBar i{
-		color:aliceblue;
-		font-size: 0.5rem;
-		opacity: 1.5;
-	}
-  } 
+ 
 header, footer, .titulo {
 	/* color de fondo con gradiente */
 	background-image: url("../images/fondo.gif");
@@ -328,3 +304,51 @@ nav a {
 	z-index: 1000;
 	width: 100vw;
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	body {
+	  font-size: 1.2rem;
+	  line-height: 1.4;
+	}
+	#nom, #titulo, #fnac{
+		margin-bottom: auto;
+	}
+	.navBar i{
+		color:aliceblue;
+		font-size:1rem;
+		opacity: 1.5;
+	}
+	ul{
+		height: auto;
+	}
+	
+	
+  }
+  
+    /*Estilos para teléfonos móviles */
+  @media only screen and (max-width: 767px) { 
+	body {
+	  font-size: 0.6rem;
+	  line-height: 1.2;
+	   
+	}
+	#nom, #titulo, #fnac{
+		margin-bottom: auto;
+	}
+	.navBar i{
+		color:aliceblue;
+		font-size: 0.7rem;
+		opacity: 1.5;
+	}
+	ul{
+		height: auto;
+	}
+	
+	 
+	 .sectionMapa{
+		width:100%;
+		height: 100%;
+	} 
+	 
+
+
+  } 
